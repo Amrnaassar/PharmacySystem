@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #61002eff;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
+/*site header */
+.col-12{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    padding: 50px; 
+    color: rgb(255, 255, 255);
+  }
+.navbar{
+  height: 150Px;
+  width: 100%;
+}
+.nav{
+  width: 100%;
+
+}
+.search{
+  background-color: #bcd8ccff; 
+}
+.btn{
+  background-color: #2c3b3aff;
+  color: #f8f8f8ff;
+  text-decoration: none;
+}
+.reg{
+  color: #f8f8f8ff ;
+}
+ul{
+  width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+a{
+  text-decoration: none;
+}
+ul li{
+float: left;
+width: 250px;
+height: 40px;
+background-color: #2b3d2dff;
+
+line-height: 40px;
+font-size: 20px;
+text-align: center;
+margin-right: 2px;
+ }
+ul li a{
+text-decoration: none;
+display: block;
+color: white;
+}
+ul li a:hover{
+background-color:#9ac69cff;
+text-decoration: none;
+color: white;
+}
+ul li ul li{
+  display: none;
+  text-decoration: none;
+}
+ul li:hover ul li{
+  display: block;
+  text-decoration: none;
+}
+.select{
+  height:300px;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  background-image: url('https://targetcareers.co.uk/sites/targetcareers.co.uk/files/public/styles/header_1500x550/public/field/image/alternatives_to_medicine.jpg?itok=Xw3eRj7n');
+  background-size: cover;
+}
+.table{
+  background-color: rgb(167, 32, 32);
+  color: #000;
+}
+/* card */
+.card-title{
+text-align: center;
+}
+.medimg{
+    height: 70%;
+    width: 100%
+}
+.c{
+  background-color: #90a093ff;
+  color: aliceblue;
+}
+
+/* home things */
+.count{
+ background-color: #2b3d2dff;
+color: #90a093ff;
+height: 300px;
+padding-top: 40px;
+}
+.aboutimg{
+  width:50%;
+  height: 350px;
+  /* background-color: #000; */
+  float: left;
+}
+.about{
+  /* background-color:red; */
+  width:50%;
+  height: 350px;
+  float: left;
+}
+  /* footer */
+footer{
+    text-align: center;
+    height: 100px;
+} 
